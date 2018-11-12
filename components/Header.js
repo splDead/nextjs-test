@@ -8,6 +8,9 @@ const Header = () => (
         <Link href='/about'>
             <a>About</a>
         </Link>
+        <Link href='/hello'>
+            <a>Hello</a>
+        </Link>
         <style jsx>{`
             a {
                 margin-right: 15px;
