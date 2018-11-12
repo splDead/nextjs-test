@@ -21,7 +21,7 @@ app.prepare()
             return handle(req, res);
         });
 
-        server.listen(3000, err => {
+        server.listen(process.env.PORT || 9000, err => {
             if (err) {
                 throw err;
             }
